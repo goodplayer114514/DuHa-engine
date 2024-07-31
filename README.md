@@ -19,7 +19,7 @@
 
 其中Game类包含两个私立函数
 你需要将其补充
-```
+```c++
 void Game::update(){
 //Something
 }
@@ -31,7 +31,7 @@ void Game::input(){
 input()是处理玩家输入的
 
 随后进行摄像头方位处理
-```
+```c++
 game->MainCam.Cam_pos.x=0;
 game->MainCam.Cam_pos.y=0;
 game->MainCam.Cam_pos.z=0;
