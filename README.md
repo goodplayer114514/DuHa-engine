@@ -21,10 +21,10 @@
 你需要将其补充
 ```c++
 void Game::update(){
-//Something
+// Write Something
 }
 void Game::input(){
-//Something
+//Write Something
 }
 ```
 其中update()是更新游戏状态
@@ -41,6 +41,16 @@ game->MainCam.Cam_ro.z=0;
 ```
 
 同时需要写顶点坐标
+``Pos pos(x,y,z,w)``
 
-``c++Pos pos(1,0,0)``
+函数接受3个参数
+
+x:世界坐标x
+
+y:世界坐标y
+
+z:世界坐标z
+
+w:齐次坐标,默认为1
+
 
