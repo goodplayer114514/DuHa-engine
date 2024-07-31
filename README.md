@@ -15,4 +15,15 @@
 
 参数:1.Near 2.Far 3.Aspect 4.Size 5.Fov
 
-其中有两个构造函数 不填第五个参数将决定你使用的投影（透视或正交）
+其中有两个构造函数 填不填第五个参数将决定你使用的投影（透视或正交）
+
+其中Game类包含两个私立函数
+你需要将其补充
+```
+void Game::update(){
+//Something
+}
+void Game::input(){
+//Something
+}
+```
