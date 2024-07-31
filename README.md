@@ -11,7 +11,7 @@
 
 在`int main`或`int WinMain`主函数中
 
-创建一个`Game*`对象，并填好构造函数
+创建一个`Game* game`对象，并填好构造函数
 
 参数:1.Near 2.Far 3.Aspect 4.Size 5.Fov
 
@@ -26,4 +26,16 @@ void Game::update(){
 void Game::input(){
 //Something
 }
+```
+其中update()是更新游戏状态
+input()是处理玩家输入的
+
+随后进行摄像头方位处理
+```
+game->MainCam.Cam_pos.x=0;
+game->MainCam.Cam_pos.y=0;
+game->MainCam.Cam_pos.z=0;
+game->MainCam.Cam_ro.x=0;
+game->MainCam.Cam_ro.y=0;
+game->MainCam.Cam_ro.z=0;
 ```
