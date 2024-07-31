@@ -40,4 +40,7 @@ game->MainCam.Cam_ro.y=0;
 game->MainCam.Cam_ro.z=0;
 ```
 
+同时需要写顶点坐标
+
+``c++Pos pos(1,0,0)``
 
