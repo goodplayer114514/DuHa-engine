@@ -3,11 +3,12 @@
 **需要安装easyx图形库,链接:https://easyx.cn**
 需要支持c++的编译器
 
-接下来就开始教程
+接下来就开始教程(2dgame是实例程序)
 
 首先先包含"DuHa3D.h"头文件
 
 没有命名空间
+
 
 在`int main`或`int WinMain`主函数中
 
